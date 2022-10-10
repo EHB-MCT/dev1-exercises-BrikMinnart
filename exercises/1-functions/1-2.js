@@ -18,4 +18,12 @@ context.lineTo(200,50);
 context.lineTo(50,50)
 context.stroke();
 
+//Cross
+
+context.lineWidth = 5
+context.strokeStyle= "red"
+context.beginPath();
+context.moveTo(50,50);
+context.lineTo(200,200);
+context.stroke();
 }
