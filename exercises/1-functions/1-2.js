@@ -26,4 +26,10 @@ context.beginPath();
 context.moveTo(50,50);
 context.lineTo(200,200);
 context.stroke();
+
+context.lineWidth = 5
+context.beginPath();
+context.moveTo(200,50);
+context.lineTo(50,200);
+context.stroke();
 }
