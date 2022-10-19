@@ -19,5 +19,6 @@ function drawCross() {
         Utils.drawLine(50, step, 350, step);
         Utils.drawLine(step, 50, step, 350);
         i =i+25 ;
+        
     }
 }
