@@ -14,8 +14,6 @@ let pos = 50;
 let posDif = 50;
 
 
-
-
 drawRectangles(pos,size);
 drawRectangles(pos+posDif,size-sizeDif);
 drawRectangles(pos+2*posDif,size-2*sizeDif);
