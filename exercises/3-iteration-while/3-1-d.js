@@ -13,9 +13,11 @@ function draw() {
 }
 
 function drawDiagonalLines() {
-    let i = ;
-    while (i <= ) {
-        Utils.drawLine(, , , );
-        i = ;
+    let i =0 ;
+    let spacing = 25;
+    let ofset = 25 ;
+    while (i <=7) {
+        Utils.drawLine(50+(i*spacing),175+(i*ofset),175+(i*spacing),50+(i*ofset));
+        i =i+1;
     }
 }
